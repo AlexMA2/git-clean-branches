@@ -20,7 +20,7 @@ This utility script fetches the latest remote updates and generates a scannable 
 
 To execute this script from **any repository** on your computer without typing the full directory path, you can map it to a global Git alias. Open your terminal and run the command corresponding to your operating system:
 
-### 🪟 Windows (Using PowerShell)
+### Windows (Using PowerShell)
 If your script is saved at `path/to/your/git-branch-clean.sh`, run this command to safely bridge PowerShell with Git Bash without breaking syntax arguments:
 ```powershell
 $FixedCommand = '!f() { "C:/Program Files/Git/bin/sh.exe" path/to/your/git-branch-clean.sh "$@"; }; f'
