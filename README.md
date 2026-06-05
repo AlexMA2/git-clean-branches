@@ -29,7 +29,7 @@ git config --global alias.clean-branches $FixedCommand
 
 _(Note: If Git is installed in a custom directory, update C:/Program Files/Git/bin/sh.exe to your actual path)._
 
-### 🐧 Linux & 🍏 macOS (Using Bash / Zsh)
+### Linux & macOS (Using Bash / Zsh)
 
 First, make sure the script file has execution permissions:
 
